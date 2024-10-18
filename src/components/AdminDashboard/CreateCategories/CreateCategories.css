@@ -1,0 +1,48 @@
+.categoryMainDiv{
+    width: 100%;
+    /* background-color: antiquewhite; */
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+    gap: 30px;
+    margin: 0 0;
+}
+.categoryForm{
+    display: flex;
+    /* background-color: antiquewhite; */
+    align-items: flex-end;
+    justify-items: center;
+}
+
+.createCategorybtn{
+    padding: 10px;
+    border: 1px solid #3EA175;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 52px;
+}
+
+.deleteCategorybtn{
+    padding: 10px;
+    border: 2px solid red;
+    background-color: transparent;
+    /* color: white; */
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 52px;
+}
+
+.createCategorybtn:hover{
+    background-color: #3EA175;
+    color: white;
+}
+
+h3{
+    border-top: 2px solid #3EA175;
+    padding-top: 10px;
+}

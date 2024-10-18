@@ -1,0 +1,66 @@
+.purchasefileddiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 5px;
+  /* background-color: antiquewhite; */
+}
+
+.purchaseMain{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productPurchaseDiv{
+    width: 70%;
+    /* background-color: antiquewhite; */
+    padding: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.prodcutNameDiv {
+  width: 50%;
+}
+.buynowDiv {
+  width: 100%;
+  margin-top: 3%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.productimagediv {
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.productimagediv img{
+    width: 100%;
+    height: 90%;
+}
+
+.productListMain{
+  width: 80%;
+}
+
+.parentProductList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
